@@ -1,0 +1,22 @@
+{
+  "name": "bc-typescript",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it by nomadcoders",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" --compiler %USERPROFILE%\\AppData\\Roaming\\npm\\tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavane90/bc-typescript.git"
+  },
+  "author": "Byungman Lee <pavane90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavane90/bc-typescript/issues"
+  },
+  "homepage": "https://github.com/pavane90/bc-typescript#readme",
+  "dependencies": {
+    "tsc-watch": "^4.0.0"
+  }
+}
